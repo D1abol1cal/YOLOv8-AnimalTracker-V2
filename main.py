@@ -223,9 +223,4 @@ def main():
 
 
 if __name__ == "__main__":
-
-    input_video = "pigs.mp4"
-    output_video = "output_video.mp4"
-    custom_model = "best-1.pt"
-
-    process_video_with_yolo(input_video, output_video, custom_model, conf_threshold=0.25)
+    main()
